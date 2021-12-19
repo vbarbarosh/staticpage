@@ -1,0 +1,13 @@
+{
+    "name": "staticpage",
+    "version": "0.0.0",
+    "scripts": {
+        "start": "node -r esm src/index.js"
+    },
+    "dependencies": {
+        "@vbarbarosh/express-helpers": "github:vbarbarosh/express-helpers",
+        "@vbarbarosh/node-helpers": "^1.1.4",
+        "esm": "^3.2.25",
+        "express": "^4.17.2"
+    }
+}
