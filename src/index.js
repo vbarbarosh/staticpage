@@ -22,7 +22,7 @@ async function main()
         {req: 'ALL *', fn: page404},
     ]);
 
-    await express_run(app);
+    await express_run(app, 3000, '0.0.0.0');
 }
 
 function home(req, res)
