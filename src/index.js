@@ -27,7 +27,7 @@ async function main()
 
 function home(req, res)
 {
-    res.send(`Hello\nCurrent time is: ${new Date()}\n`);
+    res.type('text').send(`Current time is: ${new Date()}\n`);
 }
 
 async function pages_get(req, res)
