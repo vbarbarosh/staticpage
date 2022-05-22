@@ -1,6 +1,6 @@
 # Static Page
 
-A rudimentary app for storing and retuning static pages.
+Storing and returning static pages.
 
 ## Usage
 
